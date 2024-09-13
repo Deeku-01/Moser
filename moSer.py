@@ -134,7 +134,7 @@ def run_ransomware_simulation():
     if selected_ransomware["zip_type"] and selected_ransomware["zip_type"] != "None":
         print(f"{selected_ransomware['ransomware']} uses zip type: {selected_ransomware['zip_type']}. Zipping files...")
         # Get directory and target files from the user
-        directory = r'D:\Cyber\Malware\MoSer\Targets' ## CHANGE THIS DIRECTORY PATH
+        directory = r'D:\Cyber\Malware\MoSer\target' ## CHANGE THIS DIRECTORY PATH
         target_files = [os.path.join(directory, file) for file in os.listdir(directory) 
                         if file.endswith(tuple(selected_ransomware["targets"]))]
 
@@ -144,7 +144,7 @@ def run_ransomware_simulation():
         print(f"Encrypting files using {selected_ransomware['enc-type']} and algorithm {selected_ransomware['enc-algo']}...")
 
         # Get directory and target files from the user
-        directory = r'D:\Cyber\Malware\MoSer\Targets' ## CHANGE THIS DIRECTORY PATH
+        directory = r'D:\Cyber\Malware\MoSer\target' ## CHANGE THIS DIRECTORY PATH
         target_files = [os.path.join(directory, file) for file in os.listdir(directory) 
                         if file.endswith(tuple(selected_ransomware["targets"]))]
 

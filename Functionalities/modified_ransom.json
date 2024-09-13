@@ -1,0 +1,315 @@
+[
+    {
+        "ransomware": "Play",
+        "targets": [
+            ".doc",
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".pdf",
+            ".txt",
+            ".jpeg",
+            ".png"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".play",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Black Basta",
+        "targets": [
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".sql",
+            ".xml"
+        ],
+        "enc-type": "ChaCha20 + RSA",
+        "enc-algo": "ChaCha20, 2048-bit RSA",
+        "extension": ".basta",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Bianlian",
+        "targets": [
+            ".doc",
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".ppt",
+            ".pptx"
+        ],
+        "enc-type": "AES",
+        "enc-algo": "256-bit AES",
+        "extension": ".bianlian",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Cerber",
+        "targets": [
+            ".doc",
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".txt",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".html"
+        ],
+        "enc-type": "RC4 + RSA",
+        "enc-algo": "RC4, 2048-bit RSA",
+        "extension": ".cerber",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Conti",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pptx",
+            ".pdf",
+            ".xml",
+            ".jpeg",
+            ".png",
+            ".txt"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".conti",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "PYSA",
+        "targets": [
+            ".docx",
+            ".pdf",
+            ".jpeg",
+            ".sql",
+            ".xml",
+            ".pptx",
+            ".xlsx"
+        ],
+        "enc-type": "AES",
+        "enc-algo": "256-bit AES",
+        "extension": ".pysa",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "REvil",
+        "targets": [
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".sql",
+            ".txt"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".revil",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "MAZE",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pptx",
+            ".jpeg",
+            ".png",
+            ".xml",
+            ".sql",
+            ".pdf"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".maze",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "WannaCry",
+        "targets": [
+            ".doc",
+            ".docx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".xls",
+            ".xlsx"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".wncry",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Karakurt",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".xml",
+            ".ppt"
+        ],
+        "enc-type": "AES",
+        "enc-algo": "256-bit AES",
+        "extension": ".karakurt",
+        "zip_type": "7zip"
+    },
+    {
+        "ransomware": "Royal",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pdf",
+            ".sql",
+            ".jpeg",
+            ".png",
+            ".txt"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".royal",
+        "zip_type": "7zip"
+    },
+    {
+        "ransomware": "Avaddon",
+        "targets": [
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".pptx",
+            ".jpeg",
+            ".png",
+            ".pdf",
+            ".txt"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".avdn",
+        "zip_type": "7zip"
+    },
+    {
+        "ransomware": "Bad Rabbit",
+        "targets": [
+            ".docx",
+            ".xls",
+            ".xlsx",
+            ".ppt",
+            ".jpeg",
+            ".png",
+            ".pdf"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".bad",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Cl0P",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".sql",
+            ".jpeg",
+            ".png",
+            ".xml",
+            ".pdf"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".cl0p",
+        "zip_type": "gzip"
+    },
+    {
+        "ransomware": "HIVE",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pdf",
+            ".pptx",
+            ".jpeg",
+            ".png",
+            ".xml"
+        ],
+        "enc-type": "AES",
+        "enc-algo": "256-bit AES",
+        "extension": ".hive",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "DoppelPaymer",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".pdf",
+            ".jpeg",
+            ".png",
+            ".txt",
+            ".xml"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".dop",
+        "zip_type": "None"
+    },
+    {
+        "ransomware": "Egregor",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".jpeg",
+            ".png",
+            ".sql",
+            ".txt",
+            ".xml"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".egregor",
+        "zip_type": "RAR"
+    },
+    {
+        "ransomware": "BlackCat",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".jpeg",
+            ".png",
+            ".pdf",
+            ".pptx",
+            ".sql"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".blackcat",
+        "zip_type": "Standard_zip"
+    },
+    {
+        "ransomware": "CryptoLocker",
+        "targets": [
+            ".docx",
+            ".xlsx",
+            ".jpeg",
+            ".png",
+            ".pptx",
+            ".pdf"
+        ],
+        "enc-type": "AES + RSA",
+        "enc-algo": "256-bit AES, 2048-bit RSA",
+        "extension": ".crypt",
+        "zip_type": "None"
+    }
+]
