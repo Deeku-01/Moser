@@ -14,6 +14,7 @@
         "enc-algo": "ChaCha20, 2048-bit RSA",
         "extension": ".basta",
         "zip_type": "None"
+        
     },
     {
         "ransomware": "Bianlian",
